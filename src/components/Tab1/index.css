@@ -1,0 +1,40 @@
+.zero {
+    margin:0px;
+    text-align: center;
+    height:auto;
+    display: flex;
+    justify-content: center;
+   
+}
+  
+
+@media (min-width: 1200px) {
+    .zero{
+        width:240px; 
+        }
+        .zero img{
+            width:30px;
+            height:20px; 
+            }
+        a {
+            margin: 0px;
+            padding: 5px !important;
+            /* padding-right: 10px !important;
+            padding-bottom: 10px !important;;
+            padding-top: 10px !important; */
+             flex: 1;
+            text-align: center;
+        }
+    
+}
+@media (max-width: 990px) {
+    .zero{
+        width:100%; 
+        }
+        a {
+            margin: 0px;
+            padding: 15px !important;
+             flex: 1;
+            text-align: center;
+        }
+}

@@ -1,0 +1,168 @@
+@media (max-width: 990px) {
+  .Toolbar {
+    background-color: #0054a5;
+    height: 60px;
+    width: 100%;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Live {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .DrawerToggle {
+    flex: 1;
+    height: 60px;
+    justify-content: center;
+  }
+  .Logo {
+    flex: 1;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Register {
+    flex: 1;
+    justify-content: flex-end;
+    text-align: end;
+
+    padding-right: 10px;
+  }
+}
+@media (max-width: 990px) {
+  .background {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .Toolbar {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .menuContainer {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    z-index: 1;
+    float: none;
+    margin-left: 190px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .menu {
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: #0054a5;
+    height: 80px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .login {
+    margin-left: 20px;
+  }
+  .space {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .Logo {
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0054a5;
+    padding-right: 250px;
+    z-index: 100;
+  }
+
+  .list1 {
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    width: 1000px;
+    align-items: center;
+  }
+  .social {
+    margin-left: 20px;
+  }
+
+  /* .background{
+        background-color:white;
+        width:100%;
+        width:auto;
+        z-index:5;
+    } */
+}
+.Logo {
+  margin-right: 75px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  margin-left: -300px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.social ul {
+  display: flex;
+  flex-direction: flex-start;
+}
+
+/* .Toolbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

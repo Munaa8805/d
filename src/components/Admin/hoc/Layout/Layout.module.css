@@ -1,0 +1,19 @@
+.Content {
+    margin-top: 0px;
+}
+
+.contentContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: f; */
+    /* align-items: flex-; */
+}
+
+.childrenContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}

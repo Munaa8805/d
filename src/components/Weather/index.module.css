@@ -1,0 +1,7 @@
+.Weather {
+  height: 18px;
+  width: 18px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}

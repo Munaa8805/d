@@ -1,0 +1,23 @@
+.container {
+    box-sizing: border-box;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid #e6e6e6; */
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.title {
+    font-size: 14px;
+    /* padding: 5px; */
+    /* padding-bottom:5px; */
+    margin: 0;
+}

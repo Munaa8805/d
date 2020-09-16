@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed|Roboto:100,400,400i,700&display=swap")
+.title {
+  padding: 0px 0px;
+  font-size: 20px;
+  font-family: "Roboto Condensed";
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+}
+.menuItem:hover .title {
+  border: none;
+  color: #6c87b2;
+  font-size: 15px;
+  position: relative;
+  transition: top 0.3s ease-in;
+  -webkit-transition: top 0.3s ease-in;
+  top: 5px;
+}
+.menuContainer {
+  background-color: rgb(108, 135, 178);
+}
+.menuItem {
+  position: relative;
+}
+.menuItem:hover {
+  background-color: white;
+}
+.menuItem img {
+  background-color: rgb(108, 135, 178);
+  opacity: 0;
+}
+.menuItem:hover img {
+  opacity: 0.9;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}

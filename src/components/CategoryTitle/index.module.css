@@ -1,0 +1,108 @@
+.Con:hover{
+  
+    cursor: pointer;
+    transition:  background-color 0.4s ease-in;
+    -webkit-transition:  background-color 0.4s ease-in;
+
+}
+/* .Con:hover .Border{
+    border-top:1px solid white!important; 
+    transition: border-bottom 1s ease-in;
+    -webkit-transition: border-bottom 1s ease-in;
+} */
+.Title{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.Symbol{
+    display:none;
+}
+.Con:hover .Symbol{
+    display:block;
+    
+    animation: colorchange 8s infinite; 
+    -webkit-animation: colorchange 8s infinite;
+}
+.Symbol1{
+    display:none;
+}
+/* .Con:hover .Symbol1{
+    display:block;
+    
+    animation: colorchange 9s infinite; 
+    -webkit-animation: colorchange 9s infinite;
+} */
+/* .Con:hover .Border{
+    border-top:2px solid white!important; 
+    transition: border-bottom 10s ease-in;
+    -webkit-transition: border-bottom 10s ease-in;
+} */
+/* .Con:hover .Title{
+    background-color:#FC9B20;
+    color:white!important; 
+    transition: color 0.6s ease-in;
+    -webkit-transition: color 0.6s ease-in;
+    transition: left 0.6s ease-in;
+    -webkit-transition: left 0.6s ease-in;
+    position: absolute;
+    justify-content: center;
+    
+} */
+/* @-webkit-keyframes colorchange 
+{
+    0%   {color:white}
+    10%   {color:rgb(108,135,178,0.6)}
+    20%   {color:white}
+    30%   {color:rgb(108,135,178,0.6)}
+    40%   {color:white}
+    50%   {color:rgb(108,135,178,0.6)}
+    60%   {color:white}
+    70%   {color:rgb(108,135,178,0.6)}
+    80%   {color:white} 
+    90%  {color:rgb(108,135,178,0.6)}
+    100% {color:white}
+  }
+  @keyframes colorchange
+  {
+    0%   {color:white}
+    10%   {color:rgb(108,135,178,0.6)}
+    20%   {color:white}
+    30%   {color:rgb(108,135,178,0.6)}
+    40%   {color:white}
+    50%   {color:rgb(108,135,178,0.6)}
+    60%   {color:white}
+    70%   {color:rgb(108,135,178,0.6)}
+    80%   {color:white} 
+    90%  {color:rgb(108,135,178,0.6)}
+    100% {color:white}
+    100%  {color:rgb(108,135,178,0.6)}
+  }
+  @-webkit-keyframes colorchange1 
+{
+    0%   {color:rgb(108,135,178,0.6)}
+    11%   {color:white}
+    22%   {color:rgb(108,135,178,0.6)}
+    33%   {color:white}
+    44%   {color:rgb(108,135,178,0.6)}
+    55%   {color:white}
+    66%   {color:rgb(108,135,178,0.6)}
+    77%   {color:white}
+    88%   {color:rgb(108,135,178,0.6)}
+    99%   {color:white}
+    100%  {color:rgb(108,135,178,0.6)}
+  }
+  @keyframes colorchange1
+  {
+    0%   {color:rgb(108,135,178,0.6)}
+    11%   {color:white}
+    21%   {color:rgb(108,135,178,0.6)}
+    31%   {color:white}
+    41%   {color:rgb(108,135,178,0.6)}
+    51%   {color:white}
+    61%   {color:rgb(108,135,178,0.6)}
+    71%   {color:white}
+    81%   {color:rgb(108,135,178,0.6)}
+    91%   {color:white}
+    100%  {color:rgb(108,135,178,0.6)}
+  } */

@@ -1,0 +1,25 @@
+.container{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+
+}
+
+/* img:hover{
+    animation: circle 6s linear infinite;
+    position: absolute;
+    top:10px;
+    left:auto;
+    right:auto;
+
+} */
+/* @keyframes circle{
+    0%{
+      transform:rotate(40deg);
+      
+    }
+    100%{
+      transform:rotate(-40deg);
+              
+    }
+  } */

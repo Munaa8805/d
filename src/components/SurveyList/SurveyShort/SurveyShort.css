@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caption {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+}
+
+.row {
+    height: 20px;
+    text-align: center;
+    border: 1px solid red;
+}
+

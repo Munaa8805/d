@@ -1,0 +1,48 @@
+.zero {
+    margin:0px;
+    text-align: center;
+    height:auto;
+    display: flex;
+    justify-content: center;
+  
+    position:relative
+}
+.tabName{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color:red 
+}
+  
+
+@media (min-width: 1200px) {
+    .zero{
+        width:240px; 
+        font-size:12px;
+        }
+       .zero img{
+           width:25px;
+           height:60px;
+       }
+        a {
+            margin: 0px;
+            padding-left: 2px !important;
+            padding-right: 10px !important;
+            padding-bottom: 10px !important;;
+            padding-top: 10px !important;
+             flex: 1;
+            text-align: center;
+        }
+    
+}
+@media (max-width: 990px) {
+    .zero{
+        width:100%; 
+        }
+        a {
+            margin: 0px;
+            padding: 15px !important;
+             flex: 1;
+            text-align: center;
+        }
+}

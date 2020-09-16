@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* .background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.row{
+    padding:0px !important;
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.shuurhai {
+    width: 70px;
+    border: 1px solid #e6e6e6;
+    background-color: #EF101B;
+    color: white;
+    padding: 0!important;
+    margin-bottom: 1px!important;
+  }
+  .marquee {
+    height: 25px;
+    width: 1130px;
+  
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 60s linear infinite;
+  }
+  
+  .marquee span {
+    float: left;
+    width: 50%;
+  }
+  
+  @keyframes marquee {
+    0% { left: 110%; }
+    100% { left: -150%; }
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .Marquee {
+    width: 1130px;
+    white-space: nowrap;
+    color: black;
+    z-index:-2;
+    display:block
+  }
+div.row {
+    margin-right: 0px;
+    margin-left: 0px
+}

@@ -1,0 +1,21 @@
+.container {
+    box-sizing: border-box;
+    width: 950px;
+    /* height: 338px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    /* padding: 10px; */
+}
+
+.selectedContent {
+    flex: 2;
+    width: 100%;
+}
+
+.listContent {
+    flex: 1;
+    width: 100%;
+}

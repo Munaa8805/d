@@ -1,0 +1,25 @@
+.background:hover .comment{
+    color:#6B87B2;
+}
+.background:hover .eye{
+    color:#2EBFD3;
+}
+.background:hover .heart{
+    color:#D32026;
+}
+
+.background:hover {
+    color:black
+}
+.background img {
+    opacity: .9;
+    background:lightgray;
+      -webkit-transition: all .3s ease-in-out;
+      transition:all .3s ease-in-out;
+  }
+  .background:hover img {
+    opacity: 1;
+    background:lightgray;
+      -webkit-transition: all .3s ease-in-out;
+      transition:all .3s ease-in-out;
+  }

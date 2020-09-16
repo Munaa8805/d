@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.slider1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  
+  
+  
+ 
+
+  }
+
+.slideImg{
+  width: 100%;
+  height: 420px;
+  margin-top: 21px;
+  margin-bottom: -30px;
+
+}
+
+.bigOne{
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.core{
+  overflow-x: hidden;
+}
+
+
+ 
+
+  
+
+.lrow{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+} 
+.slider2{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.box1 {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+}
+.Border{
+  border-top:1px solid white!important; 
+  transition: border-bottom 1s ease-in;
+  -webkit-transition: border-bottom 1s ease-in;
+}
+.pcontainer{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.pcat{
+  position:absolute;
+  top: 3px;
+  left:2px;
+}
+.ctitle{
+ background-color: rgba(0, 0, 0, 0.5);
+ width: 698px;
+ height: 95px;
+ font-size: 23px;
+ color: white;
+ text-align: center;
+
+
+}
+
+/* .newsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center
+} */
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.colBox {
+  display: flex;
+  flex-direction:row;
+  width: 100%
+}
+.leftside{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.rowblock {
+  display: flex;
+  justify-content: flex-start;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.button:hover {
+  color: #6C87B2;
+  font-size: 16px;
+}
+
+.button {
+  color: #9A9B9F;
+  cursor: pointer;
+  z-index:100;
+}
+
+.imageBox {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+
+}
+ img {
+  max-width: 100%;
+  transition: all 2.0s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.imageBox:hover img {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4);
+}
+
+.tooltip .tooltiptext {
+ 
+  width: 180px;
+  background-color:rgba(0,0,0,0.6);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0;
+  margin-right:50px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.tooltiptext{
+  display: flex;
+  margin-right: -100px;
+
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  margin-right: -50px;
+}
+
+@media (min-width: 1200px) {
+  .slideTitle {
+    width: 660px;
+    height: 65px;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+  }
+  .slideCategoryTitle {
+    background: #6C87B2;
+    width: 110px;
+    height: 25px;
+    font-size: 20px;
+    bottom: 80px;
+    text-align: center;
+    color: white;
+  }
+  .slideCategoryTitle1 {
+    background: #6C87B2;
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5%;
+  }
+  .survey {
+    width: 572px;
+    border: 1px solid #e6e6e6;
+    margin-right: 5px;
+  }
+  .titleColor:hover{
+    cursor: pointer;
+      color:red;
+      transition: color 0.5s;
+    }
+  .slideTitle1 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 420px;
+    height: 65px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .slideTitle2 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 55px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+  }
+  .author {
+    margin-right: 10px;
+  }
+  .newsCategory {
+    /* height: 472px; */
+    width: 700px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+  }
+  .shuurhai {
+    width: 70px;
+    border: 1px solid #e6e6e6;
+    background-color: #EF101B;
+    color: white;
+    padding: 0!important;
+    margin-bottom: 1px!important;
+  }
+  .Marquee {
+    width: 1130px;
+    white-space: nowrap;
+    color: black;
+  }
+  .tv {
+    background-color: aqua;
+    height: 300px;
+    width: 20px
+  }
+ 
+
+}
+
+@media (max-width: 990px) {
+  .newsContainer {
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px
+  }
+  .Marquee {
+    width: 80%;
+  }
+  .shuurhai {
+    width: 20%;
+  }
+}
+
+@media(max-width:700px){
+  .nukasda{
+   width:380px;
+   height:300px;
+   overflow-x: hidden;
+   margin-left: -300px;
+   margin-top:430px;
+   transform: scale(0.9);
+   
+
+
+  }
+ 
+  .slideImg{
+    height:auto;
+    width:100%;
+    
+    
+  }
+.ctitle{
+  font-size: 15px;
+align-items: center;
+width: 360px;
+height: 90px;
+margin-bottom: 22px;
+}
+
+}
+@media(max-width:500px){
+.commentBorder{
+display: none;
+
+}
+
+.lrow{
+  
+  margin-left: 320px;
+  margin-top: 150px;
+}
+.nList1{
+  display: none;
+  
+}
+.nList2{
+  display: none;
+}
+.nList3{
+  display: none;
+}
+.urtBanner{
+  display: none;
+}
+.rowblock{
+  margin-left: -320px;
+  margin-top:1700px;
+}
+.banner1{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.banner01{
+  display: none;
+}
+.banner02{
+  display: none;
+}
+.slider1{
+display: grid;
+grid-template-rows: max-content;
+margin-right: -350px;
+padding-top: 1000px;
+margin-top: 100px;
+}
+.ulstorSmall1{
+display: none;
+}
+.ulstorSmall2{
+  display: none;
+}
+.ulstorBig{
+display: flex;
+  margin-left: 200px;
+}
+.videoMedia{
+  transform: scale(0.7);
+  width:400px;
+margin-top: -1500px;
+margin-right: 140px;
+
+}
+.videoMedia1{
+
+ padding-top: -100px;
+  
+}
+.videoM1{
+  display: none;
+}
+.videoM2{
+  display: none;
+}
+.videoM3{
+  display: none;
+}
+.doodSlider1{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.delhiid{
+margin-left: 220px;
+margin-top: -1500px;
+}
+.urlag{
+  margin-left: -50px;
+margin-top: -1140px;
+}
+.sport{
+  margin-left: -320px;
+  margin-top: -800px;
+}
+.doodSlider2{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.inter{
+  margin-left: 220px;
+}
+.utga{
+  margin-top: 250px;
+  margin-left: -50px;
+}
+.photo{
+  margin-left: -320px;
+  margin-top: 480px;
+}
+}
+

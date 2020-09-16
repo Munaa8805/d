@@ -1,0 +1,13 @@
+.borderColor{
+     text-align:left;
+  padding-bottom:5px;
+  background:
+    linear-gradient(
+        to right, rgb(86,151,202,0.5),rgb(238,40,40,0.5)
+    )
+    left 
+    bottom
+    white   
+    no-repeat; 
+  background-size:100% 5px ;
+}
